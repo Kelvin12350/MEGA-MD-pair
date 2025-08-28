@@ -69,7 +69,7 @@ router.get('/', async (req, res) => {
                         let code = await sock.sendMessage(sock.user.id, { text: md });
 
                         // Short concise message with context info
-                        let desc = `*Session generated!*\n- Keep your code safe.\n- Join channel: https://w\n\n*© PKDRILLER*`;
+                        let desc = `*Session generated!*\n- Keep your code safe.\n- Join channel: https://whatsapp.com/channel/0029Vb6QmBO3LdQSbKC7F145\n- Repo: https://github.com/Kelvin12350/MEGA\n\n*© HEATLESS*`;
 
                         await sock.sendMessage(sock.user.id, {
                             text: desc,
