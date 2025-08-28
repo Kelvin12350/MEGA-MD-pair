@@ -1,14 +1,14 @@
 {
-  "description": "Pk",
+  "description": "ME",
   "main": "./index.js",
   "type": "commonjs",
   "engines" : { 
     "node" : ">=20.0.0"
     },
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name Pk",
-      "stop": "pm2 stop Pk",
-     "restart": "pm2 restart Pk"
+      "start": "pm2 start index.js --deep-monitoring --attach --name ME",
+      "stop": "pm2 stop ME",
+     "restart": "pm2 restart ME"
     },
   "author": "pk driller",
   "license": "GPL-3.0 license",
