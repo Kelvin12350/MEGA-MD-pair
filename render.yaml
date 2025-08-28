@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: nexus-ai-pairing-site-by-pk
+    name: MEGA V2-pairing-site-by-pk
     env: docker
     plan: free
     branch: main
-    repo: https://github.com/officialpkdriller/Nexus-ai-pairing-site-by-pk
+    repo: https://github.com/Kelvin12350/MEGA-MD-pair-by-pk
     dockerfilePath: ./Dockerfile
     autoDeploy: true
