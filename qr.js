@@ -73,33 +73,33 @@ var randomItem = selectRandomItem(items);
                         let md = "nexus~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*╭━━━━━━━━━━━━━━━━━━━━━╮
-┃   NEXUS-AI USER   ┃
+┃   MEGA V2 USER   ┃
 ╰━━━━━━━━━━━━━━━━━━━━━╯
 
-🙋 Hello there, NEXUS-AI User!  
+🙋 Hello there, MEGA V2 User!  
 
 > ⚠️ *Do not share your session ID with your GF!* 😂  
 
-✅ **Thanks for using NEXUS-AI!** 🚩  
+✅ **Thanks for using MEGA V2!** 🚩  
 
 ━━━━━━━━━━━━━━━━━━━━━━━  
 
 📢 **Join our WhatsApp Channel:**  
-🔗  https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
+🔗  https://whatsapp.com/channel/0029Vb6QmBO3LdQSbKC7F145
 
 ⭐ **Don't forget to fork the repo:**  
-🔗 https://github.com/officialPkdriller/NEXUS-AI 
+🔗 https://github.com/Kelvin12350/MEGA-v2
 
 ━━━━━━━━━━━━━━━━━━━━━━━  
 
-> *© Powered by pkdriller 💟*`;
+> *© Powered by heatless 💟*`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: " 𝖇𝖔𝖙 𝖈𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
-thumbnailUrl: "https://i.postimg.cc/3RrYq2xP/28ed8a29-7bae-4747-b11c-1fd04d0ee9bf.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x",
+thumbnailUrl: "https://files.catbox.moe/vbnd15.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029Vb6QmBO3LdQSbKC7F145",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -109,22 +109,22 @@ renderLargerThumbnail: true
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
                             let desc = `*╭━━━━━━━━━━━━━━━━━━━━━╮
-┃  NEXUS-XMD USER   ┃
+┃  MEGA V2 USER   ┃
 ╰━━━━━━━━━━━━━━━━━━━━━╯
 
-🙋 Hello there NEXUS-AI User!  
+🙋 Hello there MEGA V2 User!  
 
 > ⚠️ *Do not share your session ID with your GF!* 😂  
 
-✅ **Thanks for using NEXUS-AI!** 💜  
+✅ **Thanks for using MEGA V2!** 💜  
 
 ━━━━━━━━━━━━━━━━━━━━━━━  
 
 📢 **Join our WhatsApp Channel:**  
-🔗 https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x  
+🔗 https://whatsapp.com/channel/0029Vb6QmBO3LdQSbKC7F145  
 
 ⭐ **Don't forget to fork the repo:**  
-🔗 https://github.com/officialPkdriller/NEXUS-AI  
+🔗 https://github.com/Kelvin12350/MEGA-v2
 
 ━━━━━━━━━━━━━━━━━━━━━━━  
 
@@ -134,8 +134,8 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: " 𝖒𝖉 𝖈𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
-thumbnailUrl: "https://i.postimg.cc/3RrYq2xP/28ed8a29-7bae-4747-b11c-1fd04d0ee9bf.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x",
+thumbnailUrl: "https://files.catbox.moe/omd83r.jpg",
+sourceUrl: "https://files.catbox.moe/vbnd15.jpg",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
