@@ -69,15 +69,15 @@ router.get('/', async (req, res) => {
                         let code = await sock.sendMessage(sock.user.id, { text: md });
 
                         // Short concise message with context info
-                        let desc = `*Session generated!*\n- Keep your code safe.\n- Join channel: https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x\n- Repo: https://github.com/officialPkdriller/NEXUS-AI\n\n*© PKDRILLER*`;
+                        let desc = `*Session generated!*\n- Keep your code safe.\n- Join channel: https://w\n\n*© PKDRILLER*`;
 
                         await sock.sendMessage(sock.user.id, {
                             text: desc,
                             contextInfo: {
                                 externalAdReply: {
-                                    title: "Pkdriller",
-                                    thumbnailUrl: "https://i.postimg.cc/3RrYq2xP/28ed8a29-7bae-4747-b11c-1fd04d0ee9bf.jpg",
-                                    sourceUrl: "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x",
+                                    title: "MEGA V2",
+                                    thumbnailUrl: "https://files.catbox.moe/omd83r.jpg",
+                                    sourceUrl: "https://whatsapp.com/channel/0029Vb6QmBO3LdQSbKC7F145",
                                     mediaType: 1,
                                     renderLargerThumbnail: true
                                 }
@@ -86,14 +86,14 @@ router.get('/', async (req, res) => {
 
                     } catch (e) {
                         let ddd = sock.sendMessage(sock.user.id, { text: e });
-                        let desc = `*Session error!*\n- Repo: https://github.com/officialPkdriller/NEXUS-AI`;
+                        let desc = `*Session error!*\n- Repo: https://github.com/Kelvin12350/MEGA-v2`;
                         await sock.sendMessage(sock.user.id, {
                             text: desc,
                             contextInfo: {
                                 externalAdReply: {
-                                    title: "NEXUS-AI",
-                                    thumbnailUrl: "https://i.postimg.cc/3RrYq2xP/28ed8a29-7bae-4747-b11c-1fd04d0ee9bf.jpg",
-                                    sourceUrl: "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x",
+                                    title: "MEGA V2",
+                                    thumbnailUrl: "https://files.catbox.moe/vbnd15.jpg",
+                                    sourceUrl: "https://whatsapp.com/channel/0029Vb6QmBO3LdQSbKC7F145",
                                     mediaType: 2,
                                     renderLargerThumbnail: true,
                                     showAdAttribution: true
