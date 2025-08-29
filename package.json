@@ -10,7 +10,7 @@
       "stop": "pm2 stop ME",
      "restart": "pm2 restart ME"
     },
-  "author": "pk driller",
+  "author": "MEGA V2",
   "license": "GPL-3.0 license",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.18",
