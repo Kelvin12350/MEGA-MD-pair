@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: MEGA V2-pairing-site-by-pk
+    name: MEGA V2-pairing-site-by-mb
     env: docker
     plan: free
     branch: main
