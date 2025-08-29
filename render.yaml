@@ -4,6 +4,6 @@ services:
     env: docker
     plan: free
     branch: main
-    repo: https://github.com/Kelvin12350/MEGA-MD-pair-by-pk
+    repo: https://github.com/Kelvin12350/MEGA-MD-pair-by-mb
     dockerfilePath: ./Dockerfile
     autoDeploy: true
